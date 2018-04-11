@@ -2,18 +2,24 @@
 	width:1000px;
 	float: left;
 }
+h1{
+	text-transform: uppercase;
+	font-size: 20px;
+}
 ul{
 	padding-left: 0px;
 	margin: 0px;
 }
 div.box{
 	width:250px;
-	height:250px;
-	border-width: thick;
-	border-style: dotted;
-	border-color: gold;
+	height:auto;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
 	float:left;
 	margin-left: 10px;
+	margin-top: 20px;
+	padding: 10px;
 }
 div.clear{
 	clear:both;
@@ -45,7 +51,4 @@ li{
 	text-align: center;
 	display:block
 	padding-top: 4px;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #777
-}
+	}
